@@ -5,13 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #FFF;  
-    
 }
 section{
     margin-bottom: 140px;
 }
 #container{
-    /* margin-bottom: 140px; */
     width:1200px;
     align-items: center;
     justify-content: center;
@@ -188,7 +186,6 @@ p{
     left: 1130px;
     top: 2483px;
     text-decoration: none;
-
 }
 /* Featured Products */
 .featured{
@@ -210,5 +207,43 @@ h5{
 .featured-details p{
     margin-top: -40px;
     font-weight: bolder;
-   
 }
+/* footer */
+.footer{
+    width:1450px;
+    height: 270px;
+    background-color: #18191F;
+    color: #FFFFFF;
+    text-align: center;
+}
+.fheading{
+    position: relative;
+    top:40px;
+}
+.footer h6{
+    font-size: 15px;
+    position: relative;
+    top:-5px;
+    line-height: 2em;
+}
+.circle-icon{
+    background-color: #3A3A3A;
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top:-30px;
+    vertical-align: middle;
+    margin: 10px;
+}
+.circle-icon:hover{
+    font-size: 22px;
+    transition: 1s;
+}
+
+
+
